@@ -5,6 +5,8 @@
 
   ## Description
   Create a descriptive README file by answering the questions generated when the program is activated. The README will include a - *Project Title  *Project Description  *Table of Contents with links to relevant sections  *Installation Information  *Usage Information  *License  *Contributing Information  *Testing Information  *Questions
+  
+  ![Demonstration](https://user-images.githubusercontent.com/65838273/96355055-48582680-1129-11eb-9c9c-d685c984e5e2.gif)  
 
   ## Table of Contents
   1. [Installation](#installation)
