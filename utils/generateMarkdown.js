@@ -3,38 +3,38 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ---
 
-  ![${data.license}](https://img.shields.io/github/license/${data.username}/${data.title})
+  ![${data.license}](https://img.shields.io/badge/license/${data.license}-${data.title}-green)
 
-  ##Description
+  ## Description
   ${data.description}
 
-  ##Table of Contents
-  1. [Installation](##Installation)
-  2. [Usage](##Usage)
-  3. [License](##License)
-  4. [Contributing](##Contributing)
-  5. [Tests](##Tests)
-  6. [Questions](##Questions)
+  ## Table of Contents
+  1. [Installation](## Installation)
+  2. [Usage](## Usage)
+  3. [License](## License)
+  4. [Contributing](## Contributing)
+  5. [Tests](## Tests)
+  6. [Questions](## Questions)
 
-  ##Installation
+  ## Installation
   To install the necessary dependencies, run the following command:
   ${data.installation}
 
-  ##Usage
+  ## Usage
   ${data.usage}
 
-  ##License 
+  ## License 
   This project is licensed under the ${data.license} license.
 
-  ##Contributing
+  ## Contributing
   ${data.contributing}
 
-  ##Tests
+  ## Tests
   To run tests, run the following command:
   ${data.tests}
 
-  ##Questions
-  If you have any questions about this repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](github.com/${data.username}).
+  ## Questions
+  If you have any questions about this repo, open an issue or contact me directly at [${data.email}](mailto:${data.email}). You can find more of my work at [${data.username}](/${data.username}).
 `;
 }
 
